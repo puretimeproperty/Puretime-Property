@@ -171,25 +171,25 @@ const Footer = () => {
                     </a>
                   </div>
 
-                  <div className="flex flex-col gap-2">
-                    <p className="text-body-md font-medium text-neutral-900">
+                  {/* <div className="flex flex-col gap-2"> */}
+                    {/* <p className="text-body-md font-medium text-neutral-900">
                       Find us at:
                     </p>
                     <p className="text-body-md font-normal text-neutral-700">
-                      <span className="md:hidden">
+                      <span className="md:hidden"> */}
                         {/* Format address for mobile with line breaks */}
-                        {detail.Address.split(',')[0]},<br />
+                        {/* {detail.Address.split(',')[0]},<br />
                         {detail.Address.split(',')[1]},<br />
                         {detail.Address.split(',')[2]},<br />
                         {detail.Address.split(',')[3]},<br />
-                        {detail.Address.split(',')[4]}
-                      </span>
-                      <span className="hidden md:inline">
+                        {detail.Address.split(',')[4]} */}s
+                      {/* </span>
+                      <span className="hidden md:inline"> */}
                         {/* Format address for desktop with natural commas */}
-                        {detail.Address}
-                      </span>
-                    </p>
-                  </div>
+                        {/* {detail.Address} */}
+                      {/* </span> */}
+                    {/* </p> */}
+                  {/* </div> */}
                 </motion.div>
               ))}
             </div>
@@ -215,7 +215,7 @@ const Footer = () => {
                 </div>
               </div>
             </motion.div>
-            
+
             {/* Memberships Section */}
             <motion.div
               initial="hidden"
